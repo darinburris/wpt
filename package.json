@@ -1,0 +1,30 @@
+{
+  "name": "wpt",
+  "version": "1.0.0",
+  "description": "Task for running code against the WebPageTest API",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "install-globals": "npm install -g grunt-cli github:gulpjs/gulp#4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darinburris/wpt.git"
+  },
+  "keywords": [
+    "Grunt",
+    "Node",
+    "WPT",
+    "WebPageTest"
+  ],
+  "author": "Darin Burris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darinburris/wpt/issues"
+  },
+  "homepage": "https://github.com/darinburris/wpt#readme",
+  "devDependencies": {
+    "grunt-wpt": "^3.1.3",
+    "gulp": "^3.9.1",
+    "gulp-webpagetest": "^1.1.1"
+  }
+}
